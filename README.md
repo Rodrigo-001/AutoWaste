@@ -24,15 +24,6 @@
 
 ----------------------------------------------
 
-## Executando a Aplicação com Docker
-1. **Abra o terminal** e navegue até a pasta raiz do projeto: `cd /caminho/para/AutoWaste`.
-2. **Construa a imagem Docker**: `docker build -t api-auto-waste-image .`
-3. Verifique as imagens disponíveis: `docker images`.
-4. **Inicie o container** na porta 8080: `docker run -d --name app-auto-waste -p 8080:8080 api-auto-waste-image`.
-5. Confirme que o container está em execução: `docker ps`.
-
-----------------------------------------------
-
 ## Testando o CRUD via API
 1. Abra uma ferramenta de teste de API (como Insomnia ou Postman).
 2. **Importe o arquivo de configuração**:
